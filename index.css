@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+ width: 100vw;
+
+ min-height: 1200px;
+ background-color: rgba(255, 255, 255, 0.83);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #A9A9A9;
+ box-shadow:  rgba(0, 0, 0, 0.22) 0px 15px 10px;
+ 
+}
+
+.heading{
+    
+    color: #A9A9A9;
+
+}
+
+.box{
+    width: 70vh;
+    height: 110vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+ 
+    
+    
+}
+ a {
+ 
+  text-decoration: none;
+}
+.upper{
+    display: flex;
+    
+ margin: 33px 33px;
+ 
+}
+.upper h1{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.upper h1 a{
+    font-size: medium;
+}
+.upper:hover{
+    text-decoration: underline blue;
+    
+}
+.namebox{
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+ height: 39px;
+ width: 230px;
+}
+.Firstname:hover{
+    border: 2px solid #1342EA; width: 235px;
+}
+.lastname:hover{
+    border: 2px solid #1342EA; width: 235px;
+}
+.box:hover{
+    border: 2px solid #1342EA; 
+}
+#work{
+    height: 30px;
+    width: 230px;
+}
+#work:hover{
+    border: 3px solid rgb(103, 48, 155); width: 235px;
+
+}
+.input{
+    height: 100px;
+ width: 482px;
+}
+.input:hover{
+    border: 2px solid #1342EA; 
+}
+.fle{
+    
+   
+    border: 1px solid rgba(0, 0, 0, 0.838);
+  
+   }
+   .fle:hover{
+    border: 2px solid #1342EA; width: 235px;
+   }
+
+    
+
+.cvfile:hover{
+    border: 1px solid #1342EA; width: 235px;
+
+}
+.fil:hover{
+
+    border: 1px solid #1342EA;
+    text-align: end; 
+    width: 235px;
+
+
+
+}
+.namebox2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 450px;
+   margin-top: 33px;
+    
+    
+}
+button{
+    width: 150px;
+    height: 50px;
+   background-color: red;
+   color: white;
+   font-size: large;
+   transition: all 1s linear 0s;
+
+ 
+}
+button:hover{
+    background-color: blue;
+    font-size: small;
+    width: 235px;
+}
+@media (max-width:504px) {
+    .container{
+      width: min-content;
+      font-size: 2rem;
+    }
+    input{
+       width: 500px;
+    }
+    .box{
+        width: 500px;
+        
+        height: fit-content;
+    }
+    .namebox{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .input{
+        width: 500px;
+    }
+    .fle{
+        width: 500px;
+    }
+    .namebox2{
+        width: 300px;
+    }
+    .fle:hover{
+        border: 2px solid #1342EA; width: fit-content;
+       }
+       .cvfile:hover{
+        border: 1px solid #1342EA; width: fit-content;}
+    
+}
